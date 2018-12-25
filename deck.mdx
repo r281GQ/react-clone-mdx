@@ -1,23 +1,138 @@
-import { Head } from 'mdx-deck'
+import { Head } from 'mdx-deck';
 
-export { default as theme } from './theme'
+export { default as theme } from './theme';
 
 <Head>
-  <title>Presentation Title</title>
+  <title>React-Fiber clone</title>
 </Head>
 
-# Hello
+# React-Fiber clone
 
 ---
 
-## Edit this file
+Thanks to
 
-To create your presentation
+[React Core team](https://reactjs.org/)
+
+[Rodrigo Pombo](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)
+
+[Eytan Manor](https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba)
+
+[Max Koretskyi](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
+
+---
+
+## What to expect
+
+- Fiber algorithm
+- JSX
+- State
+- Class and function based components
+- Lifecycles
+- Refs
+- Context API ?
+- Keys ?
+- Hooks!!!
+
+---
+
+## Also
+
+- some basic prinicples of React and JS
+- requestIdleCallback API
+- lot of boilerplate
+
+---
+
+## Approach
+
+# Top down built "To do" App
+
+# (what else?)
+
+---
+
+## What not to expect
+
+- Not a contributor/maintainer of React
+- Not a robust code
+- Not to cover all the edgecases
+
+---
+
+## What not to expect
+
+- Not a contributor/maintainer of React
+- Not a robust code
+- Not to cover all the edgecases
+
+---
+
+## React stack
+
+- No way to stop the diffing
+- Recursive algorithm
+
+---
+
+## React fiber
+
+Responsiveness
+
+[Dodds && Abramov](https://www.youtube.com/watch?v=crM1iRVGpGQ)
+
+---
+
+## requestIdleCallback
+
+---
+
+## Principles of React
+
+---
+
+# "The least leaky abstraction." Pete Hunt
+
+[Video](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
+
+[Alternate](https://www.youtube.com/watch?v=DgVS-zXgMTk)
 
 ```notes
-- Create speaker notes in fenced code blocks
+Frameworks try to solve the same problems: abstraction over DOM manipulation.
 ```
 
 ---
 
-<https://github.com/jxnblk/mdx-deck>
+# "and we call it React"
+
+[Jordan Walke](https://www.youtube.com/watch?v=GW0rj4sNH2w)
+
+---
+
+# A declarative, efficient, and flexible JavaScript library for building user interfaces.
+
+[Github](https://github.com/facebook/react/)
+
+---
+
+# Describe
+
+- virtual DOM
+- speed
+- JSX
+- unilinear data flow
+- declarative!! (API)
+- component based!! (function)
+
+```notes
+Describe like in interviews, pros and cons, or blog posts. Component based === function composition.
+```
+
+---
+
+# Functional programming
+
+- components ~ functions
+- stateful - stateless components (referentailly transparent functions)
+- component composition ~ function composition
+- declarative!! (API style !== implementation style)
